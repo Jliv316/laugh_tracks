@@ -1,0 +1,9 @@
+<h1> information for each comedian: </h1>
+
+<% @comedians.each do |comedian| %>
+    <ul>
+        <li><%= comedian.name %></li>
+        <li><%= comedian.age%></li>
+        <li><%= comedian.find_specials %></li>
+    </ul>
+<% end %>
